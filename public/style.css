@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: verdana, sans-serif;
+}
+body{
+    display: flex;
+    background-color: rgb(67, 46, 97);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.center{
+    padding: 10px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+}
+.center h1{
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+.center .text .input{
+    font-size: 16px;
+    text-indent: 20px;
+    color: white;
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.center .text .input::placeholder{
+    color: white;
+}
+#submit-button{
+    text-indent: 0px;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    font-size: larger;
+    font-weight: 500;
+    background-color: white;
+}
+.center .text i{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-55px,25px);
+}
+.remember{
+    margin: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.remember #checkbox{
+    margin-right: 3px;
+    transform: scale(120%);
+}
+.remember a, label{
+    color: white;
+    text-decoration: none;
+}
+#account{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+#account h5, a{
+    font-weight: 500;
+    color: white;
+}
